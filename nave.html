@@ -27,7 +27,6 @@
 
 <body id="body">
     <div class="container">
-        <!--<a href="flotta.html" align="left" position="relative">Torna alla flotta</a>-->
         <h1 align="middle">La nostra nave</h1>
         <div id="multiscroll">
             <div class="ms-left" align="middle">
@@ -37,10 +36,10 @@
                 <div class="ms-section" style="background-color: transparent"><img src= "img/Inf.png" width="70%"><!--Parte finale nave--></div>
             </div>
             <div class="ms-right" align="middle">
-                <div class="ms-section" style="background-color: transparent">Descrizione nave</div>
-                <div class="ms-section" style="background-color: transparent">Descrizione motori e torre di controllo</div>
-                <div class="ms-section" style="background-color: transparent">Descrizione zona notte</div>
-                <div class="ms-section" style="background-color: transparent">Descrizione zona giorno e <a href="visualizzazione3D.html"> visualizzazione 3D</a></div>
+                <div class="ms-section" style="background-color: transparent"><p>Descrizione nave (<a href="flotta.html">Torna alla flotta</a>)</p></div>
+            <div class="ms-section" style="background-color: transparent"><p>Descrizione motori e torre di controllo</p></div>
+            <div class="ms-section" style="background-color: transparent"><p>Descrizione zona notte</p></div>
+                <div class="ms-section" style="background-color: transparent"><p>Descrizione zona giorno e <a href="visualizzazione3D.html"> visualizzazione 3D+</a><span> | </span><a href="Modello3D_new.html" target="help">visualizzazione 3D standard</a></p></div>
             </div>
         </div>
     </div>
@@ -49,18 +48,9 @@
     <script type="text/javascript" src="https://cdn.rawgit.com/alvarotrigo/multiscroll.js/master/vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="https://cdn.rawgit.com/alvarotrigo/multiscroll.js/master/jquery.multiscroll.min.js"></script>
     <script type="text/javascript">
-        if(outerWidth > 767){
-            $(document).ready(function() {
-                $('#multiscroll').multiscroll({navigation: true, navigationPosition: 'right', navigationColor: '#000'});
-            });
-        }
-    </script>
-    <script type="text/javascript">
-        if( outerWidth < 768){
-            $(document).ready(function() {
-                $('#multiscroll').multiscroll({navigation: false, navigationPosition: 'right', navigationColor: '#000'});
-            });
-        }
+        $(document).ready(function() {
+            $('#multiscroll').multiscroll({navigation: true, navigationPosition: 'left', navigationColor: '#000'});
+        });
     </script>
     <!-- /IMPORTAZIONE SCRIPT JS -->
 </body>
