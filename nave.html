@@ -39,7 +39,7 @@
                 <div class="ms-section" style="background-color: transparent">Descrizione nave (<a href="flotta.html">Torna alla flotta</a>)</div>
                 <div class="ms-section" style="background-color: transparent">Descrizione motori e torre di controllo</div>
                 <div class="ms-section" style="background-color: transparent">Descrizione zona notte</div>
-                <div class="ms-section" style="background-color: transparent">Descrizione zona giorno e <a href="visualizzazione3D.html" target="help"> visualizzazione 3D</a></div>
+                <div class="ms-section" style="background-color: transparent">Descrizione zona giorno e <a href="visualizzazione3D.html"> visualizzazione 3D</a><a href="visualizzazione3D2.html" target="help"> visualizzazione 3D2</a></div>
             </div>
         </div>
     </div>
@@ -48,18 +48,9 @@
     <script type="text/javascript" src="https://cdn.rawgit.com/alvarotrigo/multiscroll.js/master/vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="https://cdn.rawgit.com/alvarotrigo/multiscroll.js/master/jquery.multiscroll.min.js"></script>
     <script type="text/javascript">
-        if(outerWidth > 767){
-            $(document).ready(function() {
-                $('#multiscroll').multiscroll({navigation: true, navigationPosition: 'right', navigationColor: '#000'});
-            });
-        }
-    </script>
-    <script type="text/javascript">
-        if( outerWidth < 768){
-            $(document).ready(function() {
-                $('#multiscroll').multiscroll({navigation: false, navigationPosition: 'right', navigationColor: '#000'});
-            });
-        }
+        $(document).ready(function() {
+            $('#multiscroll').multiscroll({navigation: true, navigationPosition: 'left', navigationColor: '#000'});
+        });
     </script>
     <!-- /IMPORTAZIONE SCRIPT JS -->
 </body>
