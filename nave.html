@@ -1,0 +1,80 @@
+<!doctype html>
+<!-- identifica la versione di html e i browser capiscono come interpretarlo-->
+<html lang="it">
+
+<head>
+    <!-- Viewport -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-=1">
+    <!-- Tag META -->
+    <title>Nave | GalacTrip</title>
+    <meta name="description" content="Presentazione della nostra nave spaziale">
+    <meta name="author" content="Nome Cognome">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/alvarotrigo/multiscroll.js/master/jquery.multiscroll.css">
+    <!-- MODIFICE CSS -->
+    <!-- Importazione miei file css: -->
+    <link href="css/nave.css" rel="stylesheet">
+    <!-- /MODIFICE CSS -->
+    <!-- IMPORTAZIONE FONT -->
+    <!-- Font Aggiuntivi -->
+    <!-- Font: Roboto Slab -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- /IMPORTAZIONE FONT -->
+</head>
+
+<!-- INIZIO DEL BODY -->
+
+<body id="body">
+    <div class="container">
+        <a href="" align="left" position="relative">Torna alla flotta</a>
+        <h1 align="middle">La nostra nave</h1>
+        <div id="multiscroll">
+            <div class="ms-left" align="middle">
+                <div class="ms-section" style="background-color: transparent"><img src= "img/NaveTrasp.PNG" width="70%"><!--Immagine nave intera--></div>
+                <div class="ms-section" style="background-color: transparent"><img src= "img/Sup.png" width="70%"><!--Parte superiore nave--></div>
+                <div class="ms-section" style="background-color: transparent"><img src= "img/Med.png" width="70%"><!--Parte intermedia nave--></div>
+                <div class="ms-section" style="background-color: transparent"><img src= "img/Inf.png" width="70%"><!--Parte finale nave--></div>
+            </div>
+            <div class="ms-right" align="middle">
+                <div class="ms-section" style="background-color: transparent">Descrizione nave</div>
+                <div class="ms-section" style="background-color: transparent">Descrizione motori e torre di controllo</div>
+                <div class="ms-section" style="background-color: transparent">Descrizione zona notte</div>
+                <div class="ms-section" style="background-color: transparent">Descrizione zona giorno e <a href="visualizzazione3D.html"> visualizzazione 3D</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- IMPORTAZIONE SCRIPT JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/alvarotrigo/multiscroll.js/master/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/alvarotrigo/multiscroll.js/master/jquery.multiscroll.min.js"></script>
+    <script type="text/javascript">
+        if(outerWidth > 767){
+            $(document).ready(function() {
+                $('#multiscroll').multiscroll({navigation: true, navigationPosition: 'right', navigationColor: '#000'});
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        if( outerWidth < 768){
+            $(document).ready(function() {
+                $('#multiscroll').multiscroll({navigation: false, navigationPosition: 'right', navigationColor: '#000'});
+            });
+        }
+    </script>
+    <!-- Pubblicità-->
+    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=qnimate" id="_carbonads_js"></script>
+    <!--/Pubblicità-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-57883751-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- /IMPORTAZIONE SCRIPT JS -->
+</body>
+
+</html>

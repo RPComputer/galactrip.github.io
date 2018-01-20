@@ -1,0 +1,494 @@
+/*
+ * MODIFICHE GENERALI ALLA PAGINA
+ */
+
+@font-face {
+    font-family: 'Airborne';
+    src: url('../fonts/Airborne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    /* primo testo disponibile nell'elenco */
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    background: gainsboro;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: "Airborne";
+    color: blue;
+}
+
+h2 {
+    font-family: "Times New Roman"";
+
+}
+
+h3 {
+    font-family: serif;
+}
+
+/*
+ * /modifiche generali alla pagina
+ */
+
+/*
+ * NAVIGATION BAR
+ */
+
+.navbar {
+    border-radius: 0px;
+    background-color: #10222e;
+}
+
+.navbar-header {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-collapse {
+    position: relative;
+    padding-top: 30px !important;
+    max-height: 270px;
+
+}
+
+/* NAVBAR */
+
+.navbar li a {
+    /*text-transform:uppercase; /* testo tutto in maiuscolo */
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+    /*colore testo*/
+    /*background-color: #232323;*/
+}
+
+/* Navbar Search */
+
+.navbar-collapse form[role="search"] {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+}
+
+.navbar-collapse form[role="search"] button,
+.navbar-collapse form[role="search"] input {
+    padding: 8px 12px;
+    border-radius: 0px;
+    border-width: 0px;
+    color: darkgray;
+    background-color: #10222e;
+    border-color: rgb(231, 231, 231);
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar-collapse form[role="search"] button:hover,
+.navbar-collapse form[role="search"] input:hover,
+.navbar-collapse form[role="search"] button:focus,
+.navbar-collapse form[role="search"] input:focus {
+    background-color: #10222e;
+    color: darkgray;
+}
+
+.navbar-collapse form[role="search"] input {
+    padding: 16px 12px;
+    font-size: 14pt;
+    font-style: italic;
+    color: rgb(160, 160, 160);
+    box-shadow: none;
+}
+
+.navbar-collapse form[role="search"] button[type="reset"] {
+    display: none;
+}
+
+
+/* /Navbar Search */
+
+/* /NAVBAR */
+
+/*
+ * DROPDOWN 
+ */
+
+/* DROPDOWN, DIVIDER*/
+
+.dropdown ul{
+    background-color: #182c39 !important;
+}
+
+.dropdown li {
+    background-color: #182c39;
+}
+
+
+/* /DROPDOWN, DIVIDER*/
+
+/*
+ * DROPDOWN 
+ */
+
+/* MOBILE */
+
+/* navbar toggle */
+
+/* colore del pulsante in versione mobile quando non selezionato (visibile solo in  modalità mobile)*/
+
+.navbar-toggle {
+    background-color: #434343;
+}
+
+/* /navbar toggle */
+
+/* /MOBILE */
+
+/* NAVBAR BRAND */
+
+#GalacTrip {
+    color: #0058ff;
+    background-color: #000000
+}
+
+/* /NAVBAR BRAND */
+
+/* LOGO */
+
+[class*="fa-space-shuttle"] {
+    margin-top: -17px;
+    margin-right: +5px;
+    color: gainsboro;
+    font-size: 50px;
+}
+
+/* /LOGO */
+
+/*
+ * /NAVIGATION BAR
+ */
+
+/* __________________________________________________________ */
+
+/*
+ * BREADCRUMB
+ */
+
+[class="breadcrumb"] {
+    margin-top: -1.2%;
+    background-color: transparent;
+    border-radius: 0px;
+}
+
+/*
+ * BREADCRUMB
+ */
+
+#page-content{
+    margin-top: -2%;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1334px) {
+    [class="breadcrumb"] {
+        margin-top: -1.7%;
+    }
+}
+
+@media (max-width: 1164px) {
+    [class="breadcrumb"] {
+        margin-top: -2.0%;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-nav li {
+        margin-left: -15px;
+    }
+    .navbar-header i {
+        display: none;
+    }
+    #GalacTrip {
+        margin-right: 15px;
+    }
+    [class="breadcrumb"] {
+        margin-top: -2.2%;
+    }
+}
+
+@media (max-width: 904px) {
+    [class="breadcrumb"] {
+        margin-top: -2.5%;
+    }
+}
+
+@media (max-width: 797px) {
+    [class="breadcrumb"] {
+        margin-top: -2.8%;
+    }
+}
+
+@media (max-width: 767px) {
+    /*Mobile*/
+    .navbar-nav li {
+        margin-left: 0px;
+    }
+    .navbar-header i {
+        display: unset;
+    }
+    #GalacTrip {
+        margin-right: 0px;
+    }
+    #left-menu{
+        display: none;
+    }
+}
+
+@media (max-width: 713px) {
+    [class="breadcrumb"] {
+        margin-top: -3.0%;
+    }
+}
+
+@media (max-width: 667px) {
+    [class="breadcrumb"] {
+        margin-top: -3.4%;
+    }
+}
+
+@media (max-width: 590px) {
+    [class="breadcrumb"] {
+        margin-top: -4.0%;
+    }
+}
+
+@media (max-width: 504px) {
+    [class="breadcrumb"] {
+        margin-top: -5.0%;
+    }
+}
+
+@media (max-width: 407px) {
+    [class="breadcrumb"] {
+        margin-top: -6.0%;
+    }
+}
+
+
+@media (max-width: 342px) {
+    [class="breadcrumb"] {
+        margin-top: -7.0%;
+    }
+}
+
+@media (max-width: 300px) {
+    .navbar-header i {
+        display: none;
+    }
+    [class="breadcrumb"] {
+        margin-top: -8.0%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        padding-top: 0px !important;
+        padding-right: 38px !important;
+    }
+    .navbar-collapse form[role="search"] {
+        width: 38px;
+    }
+    .navbar-collapse form[role="search"] button,
+    .navbar-collapse form[role="search"] input {
+        padding: 15px 12px;
+    }
+    .navbar-collapse form[role="search"] input {
+        font-size: 14pt;
+        opacity: 0;
+        display: none;
+        height: 50px;
+    }
+    .navbar-collapse form[role="search"].active {
+        /* Modifiche */
+        width: auto;
+        max-width: 100%;
+        /* /Modifiche */
+    }
+    .navbar-collapse form[role="search"].active button,
+    .navbar-collapse form[role="search"].active input {
+        display: table-cell;
+        opacity: 1;
+    }
+    .navbar-collapse form[role="search"].active input {
+        /* Modifiche */
+        width: auto;
+        max-width: 100%;
+        /* /Modifiche */
+    }
+}
+
+/* /MEDIA QUERIES */
+
+/* MODAL */
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* /MODAL */
+
+/* FOOTER */
+
+#myFooter {
+    background-color: #182c39;
+    color: white;
+    padding-top: 20px;
+}
+
+#map-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#myFooter .row {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #10222e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .fa {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #182c39;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover {
+    color: red;
+}
+
+#myFooter .fa-google-plus:focus {
+    color: red;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+
+#myFooter .fa-instagram:hover {
+    color: #c4003c;
+}
+
+#myFooter .fa-instagram:focus {
+    color: #c4003c;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
+
+/* /FOOTER */
+
+/* PAGINA INTERNA */
+
+.col-center {
+    float: none;
+    margin: 0 auto;
+}
+
+/* /PAGINA INTERNA */
