@@ -1,0 +1,11 @@
+@media print {
+    .nav,
+    .carousel {
+        display: none;
+    }
+
+    .breadcrumb {
+        display: inline;
+    }
+
+}
