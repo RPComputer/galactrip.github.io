@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/alvarotrigo/multiscroll.js/master/jquery.multiscroll.css">
     <!-- MODIFICE CSS -->
     <!-- Importazione miei file css: -->
-    <link href="css/nave.css" rel="stylesheet">
+    <!--<link href="css/nave.css" rel="stylesheet">-->
     <link href="css/print.css" rel="stylesheet" media="print">
     <!-- /MODIFICE CSS -->
     <!-- IMPORTAZIONE FONT -->
@@ -26,21 +26,35 @@
 
 <!-- INIZIO DEL BODY -->
 
-<body id="body">
+<body id="body" style="background: #0d0d0d; color: white;">
     <div class="container">
-        <h1 align="middle">La nostra nave</h1>
-        <div id="multiscroll">
+        <h1 align="middle" style="margin-left: 10%; font-size: 38px; color: rgb(255, 0, 0);">La nostra nave</h1>
+        <div style="margin-top: 30em">
             <div class="ms-left" align="middle">
-                <div class="ms-section" style="background-color: transparent"><img src= "img/NaveTrasp.PNG" width="70%"><!--Immagine nave intera--></div>
-                <div class="ms-section" style="background-color: transparent"><img src= "img/Sup.png" width="70%"><!--Parte superiore nave--></div>
-                <div class="ms-section" style="background-color: transparent"><img src= "img/Med.png" width="70%"><!--Parte intermedia nave--></div>
-                <div class="ms-section" style="background-color: transparent"><img src= "img/Inf.png" width="70%"><!--Parte finale nave--></div>
+                <div class="ms-section" style="background-color: transparent; width: 100%;"><img src= "img/NaveTrasp.PNG" width="70%"><!--Immagine nave intera--></div>
+                <div class="ms-section" style="background-color: transparent; width: 100%;"><img src= "img/Sup.png" width="70%"><!--Parte superiore nave--></div>
+                <div class="ms-section" style="background-color: transparent; width: 100%;"><img src= "img/Med.png" width="70%"><!--Parte intermedia nave--></div>
+                <div class="ms-section" style="background-color: transparent; width: 100%;"><img src= "img/Inf.png" width="70%"><!--Parte finale nave--></div>
             </div>
             <div class="ms-right" align="middle">
-                <div class="ms-section" style="background-color: transparent"><p>Descrizione nave (<a href="flotta.html">Torna alla flotta</a>)</p></div>
-            <div class="ms-section" style="background-color: transparent"><p>Descrizione motori e torre di controllo</p></div>
-            <div class="ms-section" style="background-color: transparent"><p>Descrizione zona notte</p></div>
-                <div class="ms-section" style="background-color: transparent"><p>Descrizione zona giorno e <a href="visualizzazione3D.html"> visualizzazione 3D</a><span></div>
+                <div class="ms-section" style="background-color: transparent; width: 100%;">
+                    <a href="flotta.html" style="color:red;">Torna alla flotta</a>
+                    <h4>Descrizione nave:</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget odio urna. Fusce augue risus, varius vel luctus id, varius in felis. Aliquam at euismod urna. Donec fermentum felis ac pretium egestas.</p>
+                </div>
+            <div class="ms-section" style="background-color: transparent; width: 100%;">
+                <h4>Descrizione motori e torre di controllo</h4>
+                <p>Maecenas nec semper ante. Quisque at viverra justo, at ornare nisl.</p>
+            </div>
+            <div class="ms-section" style="background-color: transparent; width: 100%;">
+                <h4>Descrizione zona notte</h4>
+                <p>Curabitur in tincidunt urna, quis facilisis felis. Nulla mollis mattis pulvinar.</p>
+            </div>
+            <div class="ms-section" style="background-color: transparent; width: 100%;">
+                <h4>Descrizione zona giorno</h4>
+                <p>Cras blandit molestie mollis. Suspendisse vitae interdum urna, in scelerisque lacus.</p>
+                <p>Vai alla <a href="visualizzazione3D.html" style="color:red;">visualizzazione 3D</a></p>
+            </div>
             </div>
         </div>
     </div>
