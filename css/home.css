@@ -106,6 +106,24 @@ md >=992(for small laptops)
 lg >=1200 (for laptops and desktops)
 */
 
+@media (max-width: 1920px) {
+    #myCarousel {
+        margin-top: +1.5%;
+    }
+}
+
+@media (max-width: 1560px) {
+    #myCarousel {
+        margin-top: -0.7%;
+    }
+}
+
+@media (max-width: 1450px) {
+    #myCarousel {
+        margin-top: -1.4%;
+    }
+}
+
 @media (max-width: 1334px) {
     #myCarousel {
         margin-top: -1.8%;
