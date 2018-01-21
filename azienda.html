@@ -1,0 +1,391 @@
+<!doctype html>
+<!-- identifica la versione di html e i browser capiscono come interpretarlo-->
+<html lang="it">
+
+<head>
+    <!-- Viewport -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-=1">
+    <!-- Tag META -->
+    <title>Azienda | GalacTrip</title>
+    <meta name="description" content="Descrizione della pagina">
+    <meta name="author" content="Gruppo BUFUS">
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- MODIFICE CSS -->
+    <!-- Importazione miei file css: -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/print.css" rel="stylesheet" media="print">
+    <!-- /MODIFICE CSS -->
+    <!-- IMPORTAZIONE FONT -->
+    <!-- Font Aggiuntivi -->
+    <!-- Font: Roboto Slab -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- /IMPORTAZIONE FONT -->
+</head>
+
+<!-- INIZIO DEL BODY -->
+
+<body id="body">
+    <!-- NAVIGATION area -->
+    <nav class="navbar navbar-inverse navbar-fixed-top-static" role="navigation" id="navbar">
+        <!-- container -->
+        <div class="container-flow">
+            <!-- BRAND e toggle per mobile -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigazione</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a href="index.html"><i class="navbar-brand fa fa-space-shuttle" aria-hidden="true"></i></a>
+                <a id="GalacTrip" class="navbar-brand" href="index.html">GalacTrip</a>
+            </div>
+            <!-- /BRAND e toggle per mobile-->
+            <!-- NAVBAR-COLLAPSE -->
+            <!-- Insieme di links, forms, and altri componenti per la navbar -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <!-- PARTE A SINISTRA-->
+                <ul class="nav navbar-nav navbar-left">
+                    <!-- MENU ESPERIENZE -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Esperienze<span class="caret"></span></a>
+                        <ul class="dropdown-menu navbar-inverse">
+                            <li>
+                                <a href="esperienza1marte.html">Esperienza 1 - Marte</a>
+                            </li>
+                            <li>
+                                <a href="esperienza2venere.html">Esperienza 2 - Venere</a>
+                            </li>
+                            <li>
+                                <a href="esperienza3luna.html">Esperienza 3 - Luna</a>
+                            </li>
+                            <!-- separatore -->
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="esperienze.html">Altre esperienze</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- /ESPERIENZE -->
+                    <li>
+                        <a href="flotta.html">Flotta</a>
+                    </li>
+                    <li>
+                        <a href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="social.html">Social</a>
+                    </li>
+                    <li>
+                        <a href="partner.html">Partner</a>
+                    </li>
+                    <li>
+                        <a href="about_us.html">About us</a>
+                    </li>
+                </ul>
+                <!-- /PARTE A SINISTRA-->
+                <!-- PARTE A DESTRA-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="shop.html">Shop</a>
+                    </li>
+                </ul>
+                <!-- /PARTE A DESTRA -->
+                <!-- SEARCH -->
+                <!-- https://bootsnipp.com/snippets/featured/simple-navbar-search -->
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Cerca">
+                        <span class="input-group-btn">
+                            <button type="reset" class="btn btn-default">
+                                <span class="glyphicon glyphicon-remove">
+                                    <span class="sr-only">Close</span>
+                                </span>
+                            </button>
+                        <button type="submit" class="btn btn-default">
+                                <span class="glyphicon glyphicon-search">
+                                    <span class="sr-only">Search</span>
+                                </span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+                <!-- SEARCH -->
+            </div>
+            <!-- /.NAVBAR-COLLAPSE -->
+        </div>
+        <!-- /.CONTAINER -->
+    </nav>
+    <!-- /NAVIGATION -->
+    <!-- Breadcrumb -->
+    <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About us</a></li>
+        <li><a href="#">Azienda</a></li>
+    </ol>
+    <!-- /Breadcrumb -->
+    <!-- CONTENUTI PAGINA -->
+    <div id="page-content" class="container-fluid">
+        <div class="row">
+            <div id="left-menu" class="col-sm-3 col-md-2 col-lg-2">                 <br><br>
+                
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="esperienze.html">Esperienze</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="pull-right">
+                                    <span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <ul>
+                                <li>
+                                    <a href="esperienza1marte.html">Esperienza 1 - Marte</a>
+                                </li>
+                                <li>
+                                    <a href="esperienza2venere.html">Esperienza 2 - Venere</a>
+                                </li>
+                                <li>
+                                    <a href="esperienza3luna.html">Esperienza 3 - Luna</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="flotta.html">Flotta</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="pull-right">
+                                    <span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <ul>
+                                <li>
+                                    <a href="equipaggio.html">Equipaggio</a>
+                                </li>
+                                <li>
+                                    <a href="nave.html">Nave</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-parent="#accordion" href="news.html">News</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-parent="#accordion" href="blog.html">Blog</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-parent="#accordion" href="social.html">Social</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-parent="#accordion" href="partner.html">Partner</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-parent="#accordion" href="about_us.html">About us</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-lg-10">
+                <h1>L'azienda</h1>
+                <h3>Lorem ipsum dolor sit amet, vestibulum id erat eget nisl eleifend efficitur sit amet vitae turpis. Donec feugiat hendrerit enim a placerat. Phasellus non hendrerit tortor. Nulla et sagittis mauris. Sed nulla ante, viverra aliquet dui non, faucibus vehicula quam. Nunc ligula augue, elementum nec lorem sit amet, dictum efficitur odio. Fusce pretium arcu non semper ultrices.</h3>
+                <div>
+                    <br>
+                    <img align="center" class="flex" src="img/azienda.jpg" style="max-width: 100%">
+                    <p>Struttura della sede</p>
+                    <br>
+                    <p>Consectetur adipiscing elit. Quisque hendrerit ultricies nisi, pretium dictum ante maximus eget. Donec vestibulum tincidunt dui, eget malesuada leo lacinia in. Suspendisse at tortor eu orci volutpat porta sed et nibh. Donec sem odio, rhoncus eget dolor vitae, tincidunt egestas nibh. Fusce placerat eros in lacus finibus, ac tincidunt urna maximus. Sed ut congue lectus, quis suscipit erat. Mauris vitae tincidunt turpis. Nulla et nunc eget erat ornare cursus. Donec eu dolor tempus ex bibendum luctus. Phasellus ipsum sem, condimentum eget lobortis nec, vestibulum ac magna.Aenean eu ornare ante, in lacinia mauris. Nullam in lobortis augue. Phasellus euismod, justo imperdiet commodo mattis, purus leo vestibulum ligula, ut elementum nibh nulla nec neque. Curabitur lobortis leo sit amet ipsum laoreet vulputate. Ut dignissim nisi a semper varius. Sed vel maximus nunc, a porttitor urna. Integer dui ipsum, dignissim at auctor ac, blandit eu sapien. Ut tellus metus, feugiat nec augue eu, viverra accumsan urna. Praesent ligula eros, mollis ac tristique quis, luctus ut lectus.</p>
+                    <br>
+                    <img align="center" class="flex" src="img/sala_conferenze.jpg" style="max-width: 100%">
+                    <p>Sala conferenze</p>
+                    <br>
+                    <p>Praesent pharetra elit purus. Integer non bibendum eros, ut semper turpis. Nam lobortis mauris ut sapien congue consequat. Aliquam elit velit, iaculis vel magna a, pharetra cursus metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce quis lacus auctor, rhoncus eros vulputate, ultricies risus. Maecenas tristique hendrerit eros ut porta. Nulla faucibus nunc vitae tortor tincidunt, et sagittis elit suscipit. Vestibulum lacinia ultrices ipsum, non tempor arcu vestibulum eget. Ut quis malesuada tortor. Sed sit amet volutpat nisi. Vivamus suscipit accumsan vulputate. Fusce ultrices dui vitae arcu pharetra cursus. In hac habitasse platea dictumst. Aliquam ut turpis non dui mollis cursus. Mauris hendrerit commodo augue eu scelerisque. Donec ornare iaculis nibh, id efficitur metus sagittis efficitur. Ut eget erat aliquet, porttitor ex nec, consectetur massa. In iaculis tellus eget orci luctus, sit amet laoreet magna tempus. Fusce id felis nec magna lacinia ultrices in lobortis ipsum. Fusce vitae risus malesuada, egestas libero in, accumsan lorem. Vivamus ac tellus urna. Suspendisse potenti.Quisque vitae interdum quam. Mauris semper nulla et fermentum interdum. Vivamus porta aliquam nulla at condimentum. Sed a pretium urna, sed maximus ante. Aenean at ipsum ut leo pulvinar pharetra sed ac tortor. Quisque vestibulum, ante ac vulputate sollicitudin, mi sapien venenatis ipsum, id ornare leo sapien at ipsum. Maecenas at velit tincidunt, volutpat erat vitae, suscipit elit. Aenean luctus volutpat feugiat. Vivamus purus ipsum, consectetur non vehicula accumsan, dictum vel ligula. Cras interdum sollicitudin fermentum.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /CONTENUTI PAGINA -->
+    <!-- Modal -->
+    <div id="Form" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="form-horizontal" action=" " method="post"  id="contact_form">
+                        <fieldset>
+                            <!-- Nome Form -->
+                            <legend>Lasciaci un messaggio!</legend>
+
+                            <p>Se hai un consiglio, un commento o semplicemente vuoi chiderci qualcosa, compila questo form e riceverai una risposta al più presto:</p>
+                            <!-- Text input -->
+                            <!-- Nome -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Nome e Cognome</label>  
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input  name="first_name" placeholder="Nome" class="form-control"  type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Nome -->
+                            <!-- E-Mail -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">E-Mail</label>  
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                        <input  name="e-mail" placeholder="user@foob" class="form-control"  type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /E-Mail -->
+                            <!-- Telefono -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Telefono</label>  
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                        <input  name="phone" placeholder="(+39) 1234567890" class="form-control"  type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Telefono -->
+                            <!-- /Text input -->
+                            <!-- Radio checks -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Come desideri ricevere una risposta?</label>
+                                <div class="col-md-4">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="scelta" value="yes"/> e-mail
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                       <label>
+                                            <input type="radio" name="scelta" value="no"/> messaggio
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Radio checks -->
+                            <!-- Messaggio -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Messaggio</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                        <textarea class="form-control" name="comment" placeholder="Scrivi il tuo messaggio" rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Messaggio -->
+                            <!-- Button -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"></label>
+                                <div class="col-md-4">
+                                    <button type="submit" class="btn btn-info">Invia <span class="glyphicon glyphicon-send"></span></button>
+                                </div>
+                            </div>
+                            <!-- /Button -->
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
+    <!-- Footer -->
+    <footer id="myFooter">
+        <div class="container-flow">
+            <div class="row">
+                <div align="center" class="col-md-3 col-sm-6 col-xs-8">
+                    <h5>Info e contatti</h5>
+                    <ul>
+                        <li><a href="https://goo.gl/maps/w4zXVwN6VWu" target = "help">Viale dei Trip Galattici 420</a></li>
+                        <li><a>Venice, Italy</a></li>
+                        <li><a href="mailto:info@galactrip.com">info@galactrip.com</a></li>
+                        <li><a data-toggle="modal" data-target="#Form"><u>Lasciaci un messaggio!</u></a></li>
+                    </ul>
+                </div>
+                <div align="center" class="col-md-3 col-sm-6 col-xs-4">
+                    <h5>Novità</h5>
+                    <ul>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="social.html">Social</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                </div>
+                <div align="center" class="col-md-3 col-sm-6 col-xs-8">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="azienda.html">L'azienda</a></li>
+                        <li><a href="equipaggio.html">Il nostro equipaggio</a></li>
+                        <li><a href="nave.html">La nostra nave</a></li>
+                        <li><a class="scroll-top">Back to top</a></li>
+                    </ul>
+                </div>
+                <div align="center" class="col-md-3 col-sm-6 col-xs-4">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="javascript:autoPopup()">Terms of Service</a></li>
+                        <li><a href="javascript:autoPopup()">Terms of Use</a></li>
+                        <li><a href="javascript:autoPopup()">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="social-networks">
+            <a href="https://www.facebook.com" class="facebook" target = "help"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com" class="instagram" target = "help"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com" class="twitter" target = "help"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com" class="google" target = "help"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2018 GalacTrip Corporation</p>
+        </div>
+    </footer>
+    <!-- /Footer -->
+    <!-- IMPORTAZIONE SCRIPT JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/holder.js"></script>
+    <!-- Script page-scrolling -->
+    <script src="js/scroll.js"></script>
+    <!-- Script navbar-search -->
+    <script src="js/navbar_search.js"></script>
+    <script src="js/autopopup.js"></script>
+    <!-- /IMPORTAZIONE SCRIPT JS -->
+</body>
+</html>
